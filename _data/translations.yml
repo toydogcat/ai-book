@@ -1,0 +1,38 @@
+zh-TW:
+  button:
+    read_now: "立即閱讀"
+  text:
+    see_also: "推薦閱讀"
+    episodes: "漫畫目錄"
+    prev_epi: "上一集"
+    next_epi: "下一集"
+    total_views: "總訪問量"
+    total_visitors: "訪客數"
+    lang_name: "繁體中文"
+    watch_promo: "觀看宣傳片"
+    special_promo: "特別版：宣傳片"
+    play_video: "播放影片"
+    pure_comic_version: "純漫畫版"
+  recommendation:
+    text: "既然都看到這了，要不換一集試試？"
+    back_btn: "返回頂部"
+
+en:
+  button:
+    read_now: "Read Now"
+  text:
+    see_also: "See also"
+    episodes: "Episodes"
+    prev_epi: "Previous"
+    next_epi: "Next"
+    total_views: "Total Views"
+    total_visitors: "Total Visitors"
+    lang_name: "English"
+    watch_promo: "Watch Promo"
+    special_promo: "Special: Promo"
+    play_video: "Play Video"
+    pure_comic_version: "Pure Comic Version"
+  recommendation:
+    text: "Why don't you read something next?"
+    back_btn: "Go back to top"
+

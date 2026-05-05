@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}" class="no-js">
+    {% include head.html %}
+    <body class="has-push-menu">
+        {% include minutes-to-read.html %}
+        {% include svg-icons.html %}
+        {% include header.html %}
+        
+        {% assign current_lang = page.lang | default: "zh-TW" %}
+        {% assign trans = site.data.translations[current_lang] %}
+
+        <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
+            <article role="article" class="post-content">
+                <p class="post-info">
+                    {% if page.date %}
+                        <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
+                        <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
+                            {% include date.html date=page.date %}
+                        </time>
+                    {% endif %}
+                    <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
+                    <span>{{ minutesText }}</span>
+                </p>
+                <h1 class="post-title">{{ page.title }}</h1>
+                <p class="post-subtitle">{{ page.subtitle }}</p>
+
+                {% if page.image and paginator.activated == nil %}
+                    <img src="{{ page.image | relative_url }}" alt="Featured image" class="post-cover">
+                {% endif %}
+
+                {% include pagination-post.html progressBar=true %}
+
+                {% include toc.html %}
+
+                {{ content }}
+
+                <!-- Post Navigation -->
+                {% assign special_posts = site.posts | where: "lang", current_lang | where: "is_special", true %}
+                {% assign pure_comics = site.posts | where: "lang", current_lang | where: "is_pure_comic", true %}
+                {% assign regular_posts = site.posts | where_exp:"post","post.is_generated != true" | where: "lang", current_lang | where_exp:"post","post.is_special != true" | where_exp:"post","post.is_pure_comic != true" | reverse %}
+                
+                {% assign posts_in_lang = special_posts | concat: pure_comics | concat: regular_posts %}
+
+                {% assign prev_post = nil %}
+                {% assign next_post = nil %}
+                {% for p in posts_in_lang %}
+                    {% if p.url == page.url %}
+                        {% assign current_index = forloop.index0 %}
+                        {% assign prev_index = current_index | minus: 1 %}
+                        {% assign next_index = current_index | plus: 1 %}
+                        {% if prev_index >= 0 %}
+                            {% assign prev_post = posts_in_lang[prev_index] %}
+                        {% endif %}
+                        {% if next_index < posts_in_lang.size %}
+                            {% assign next_post = posts_in_lang[next_index] %}
+                        {% endif %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+
+                <div class="post-navigation" style="display: flex; justify-content: space-between; border-top: 1px solid #333; margin-top: 40px; padding-top: 20px;">
+                    <div style="flex: 1;">
+                        {% if prev_post %}
+                            <a href="{{ prev_post.url | prepend: site.baseurl }}" style="text-decoration: none; color: white;">
+                                <div style="font-size: 0.8em; color: #e50914;">&laquo; {{ trans.text.prev_epi | default: "上一集" }}</div>
+                                <div style="font-size: 0.9em; font-weight: bold;">{{ prev_post.title | truncate: 25 }}</div>
+                            </a>
+                        {% endif %}
+                    </div>
+                    <div style="flex: 1; text-align: right;">
+                        {% if next_post %}
+                            <a href="{{ next_post.url | prepend: site.baseurl }}" style="text-decoration: none; color: white;">
+                                <div style="font-size: 0.8em; color: #e50914;">{{ trans.text.next_epi | default: "下一集" }} &raquo;</div>
+                                <div style="font-size: 0.9em; font-weight: bold;">{{ next_post.title | truncate: 25 }}</div>
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </article>
+
+            {% if site.two_columns_layout %}
+                <aside class="see-also">
+                    <h2>{{ trans.text.episodes | default: "漫畫目錄" }}</h2>
+                    <div class="directory-list" style="max-height: 500px; overflow-y: auto;">
+                        <ul>
+                            {% assign special_posts = site.posts | where: "lang", current_lang | where: "is_special", true %}
+                            {% assign pure_comics = site.posts | where: "lang", current_lang | where: "is_pure_comic", true %}
+                            {% assign regular_posts = site.posts | where_exp:"post","post.is_generated != true" | where: "lang", current_lang | where_exp:"post","post.is_special != true" | where_exp:"post","post.is_pure_comic != true" | reverse %}
+                            
+                            {% assign all_posts = special_posts | concat: pure_comics | concat: regular_posts %}
+                            
+                            {% assign epi_counter = 1 %}
+                            {% for p in all_posts %}
+                                <li style="margin-bottom: 8px; padding: 5px; border-radius: 4px; {% if p.url == page.url %}background-color: #e5091422; border: 1px solid #e50914;{% else %}border-bottom: 1px solid #333;{% endif %}">
+                                    <a href="{{ p.url | prepend: site.baseurl }}" style="display: flex; align-items: center; text-decoration: none; color: white;">
+                                        <div style="position: relative; margin-right: 10px;">
+                                            <img src="{{ p.image | relative_url }}" style="width: 45px; height: 45px; object-fit: cover; border-radius: 3px;">
+                                            {% if p.is_special %}
+                                                <span style="position: absolute; bottom: 0; right: 0; background: #e50914; font-size: 0.5em; padding: 1px 3px; border-radius: 2px; color: white;">PROMO</span>
+                                            {% elsif p.is_pure_comic %}
+                                                <span style="position: absolute; bottom: 0; right: 0; background: #e50914; font-size: 0.5em; padding: 1px 3px; border-radius: 2px; color: white;">PURE</span>
+                                            {% else %}
+                                                <span style="position: absolute; bottom: 0; right: 0; background: rgba(0,0,0,0.7); font-size: 0.6em; padding: 1px 3px; border-radius: 2px;">{{ epi_counter }}</span>
+                                            {% endif %}
+                                        </div>
+                                        <div style="flex: 1; min-width: 0;">
+                                            <div style="font-weight: bold; font-size: 0.8em; color: #e50914;">
+                                                {% if p.is_special %}
+                                                    {{ trans.text.special_promo | default: "特別版：宣傳片" }}
+                                                {% elsif p.is_pure_comic %}
+                                                    {{ trans.text.pure_comic_version | default: "純漫畫版" }}
+                                                {% else %}
+                                                    Episode {{ epi_counter }}
+                                                    {% assign epi_counter = epi_counter | plus: 1 %}
+                                                {% endif %}
+                                            </div>
+                                            <div style="font-size: 0.75em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #ccc;">{{ p.title | split: '：' | last | split: ':' | last | strip }}</div>
+                                        </div>
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </aside>
+
+                <aside class="see-also">
+                    <h2>{{ trans.text.see_also | default: "推薦閱讀" }}</h2>
+                    <ul>
+                        {% assign pure_comics = site.posts | where: "lang", current_lang | where: "is_pure_comic", true | where_exp:"post","post.path != page.path" %}
+                        {% assign other_posts = site.posts | where: "lang", current_lang | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" | where_exp:"post","post.is_pure_comic != true" %}
+                        
+                        {% assign recommended_posts = pure_comics | concat: other_posts %}
+                        {% assign shuffled_array = recommended_posts | shuffle %}
+
+                        {% comment %} 確保純漫畫版出現在推薦列表中 {% endcomment %}
+                        {% assign final_recommendations = "" | split: "," %}
+                        {% if pure_comics.size > 0 %}
+                            {% assign final_recommendations = final_recommendations | push: pure_comics.first %}
+                        {% endif %}
+                        
+                        {% for post in shuffled_array %}
+                            {% if final_recommendations.size < 3 %}
+                                {% unless final_recommendations contains post %}
+                                    {% assign final_recommendations = final_recommendations | push: post %}
+                                {% endunless %}
+                            {% else %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+
+                        {% for post in final_recommendations %}
+                            <li>
+                                <a href="{{ post.url | prepend: site.baseurl }}">
+                                    {% if post.optimized_image %}
+                                        <img src="{{ post.optimized_image | relative_url }}">
+                                    {% elsif post.image %}
+                                        <img src="{{ post.image | relative_url }}">
+                                    {% else %}
+                                        <img src="{{ '/assets/img/off.jpg' | relative_url }}">
+                                    {% endif %}
+                                    <h3>{{ post.title }}</h3>
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </aside>
+            {% endif %}
+
+        </section>
+
+        <!-- Add time bar only for pages without pagination -->
+        {% if paginator.activated == nil and site.show_time_bar == true %}
+            {% include time-bar.html %}
+            {% include recommendation.html %}
+        {% endif %}
+
+        <!-- Show modal if the post is the last one -->
+        {% if paginator.is_last and site.show_modal_on_finish_post %}
+            {% include modal.html title="You made it!" subtitle="Why don't you try another?" %}
+        {% endif %}
+
+        <!-- Show modal before user leaves the page -->
+        {% if site.show_modal_on_exit %}
+            {% include modal.html title="Don't go yet!" subtitle="You may also like..." closed=true showOnExit=true %}
+        {% endif %}
+
+        {% include subscription.html %}
+        {% include share.html %}
+        {% include author.html %}
+        {% include comments.html %}
+        {% include footer.html %}
+
+        {% assign author = site.authors | where: "name", post.author | first %}
+
+        {% assign author_urls = '' %}
+        {% if author.github_username %}
+            {% assign author_urls = author_urls | append: '"https://github.com/' | append: author.github_username | append: '",' %}
+        {% endif %}
+        {% if author.facebook_username %}
+            {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: author.facebook_username | append: '",' %}
+        {% endif %}
+        {% if author.twitter_username %}
+            {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: author.twitter_username | append: '",' %}
+        {% endif %}
+        {% if author.medium_username %}
+            {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: author.medium_username | append: '",' %}
+        {% endif %}
+        {% if author.instagram_username %}
+            {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: author.instagram_username | append: '",' %}
+        {% endif %}
+        {% if author.linkedin_username %}
+            {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
+        {% endif %}
+        {% if page.math %}
+        <script>
+            MathJax = {
+                tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+                }
+            };
+        </script>
+        <script type="text/javascript" id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        {% endif %}
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BlogPosting",
+            "name": "{{ page.title }}",
+            "headline": "{{ page.subtitle }}",
+            "description": "{{ page.description }}",
+            "image": "{{ page.image }}",
+            "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+            "articleBody": "{{ content | strip_html | xml_escape | textilize }}",
+            "wordcount": "{{ content | number_of_words }}",
+            "inLanguage": "{{ site.language }}",
+            "dateCreated": "{{ page.date | date: '%Y-%m-%d/' }}",
+            "datePublished": "{{ page.date | date: '%Y-%m-%d/' }}",
+            "dateModified": "{{ page.date | date: '%Y-%m-%d/' }}",
+            "author": {
+                "@type": "Person",
+                "name": "{{ author.display_name }}",
+                {% if author.photo %}
+                "image": "{{ author.photo }}",
+                {% else %}
+                "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
+                {% endif %}
+                "jobTitle": "{{ author.position }}",
+                "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",
+                "sameAs": [
+                    {{ author_urls | split: "," | join: "," }}
+                ]
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "{{ site.name }}",
+                "url": "{{ site.url }}{{site.baseurl}}/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{ site.url }}{{site.baseurl}}/assets/img/blog-image.png",
+                    "width": "600",
+                    "height": "315"
+                }
+            },
+            "mainEntityOfPage": "True",
+            "genre": "{{ page.category }}",
+            "articleSection": "{{ page.category }}",
+            "keywords": [{{ page.tags | join: '","' | append: '"' | prepend: '"' }}]
+        }
+        </script>
+    </body>
+</html>
