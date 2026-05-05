@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "第 5 章"
-date: 2026-05-04 09:55:00 +0800
+title: "🏛️ 帝國崛起：當人類第一次玩起「大富翁」，世界發生了什麼？"
+date: 2026-05-04 09:45:00 +0800
 tags:
   - 全球通史
 category: 歷史
@@ -12,66 +12,36 @@ is_generated: true
 permalink: /global-history/chapter-005/
 ---
 
-著作權合同登記號 圖字：01-2002-6288
+> [!CAUTION]
+> ### ⚠️ 注意：這不是演習！這是人類文明的第一次「瘋狂擴張」。
+> 農業革命之後，人類不再滿足於小村莊。
+> 我們開始在尼羅河、黃河邊蓋起摩天大樓（金字塔），建立起橫跨萬里的帝國。
+> **為什麼歐亞大陸會成為地球的主戰場？** 為什麼有些文明活到了今天，有些卻消失在風沙裡？
 
-圖書在版編目（CIP）資料
+---
 
-全球通史：從史前到21世紀：第7版新校本．上冊 /（美）斯塔夫裡阿諾斯著；吳象嬰，梁赤民譯；《全球通史》編輯小組校譯．——北京：北京大學出版社，2020.1
+### 🗺️ 從「河邊小屋」到「大陸帝國」
+在史前時代，人類被河流困住；但在古典時代，我們開始衝出河谷！
+*   **疆域大爆發**：文明不再只是河邊的一小塊，而是從大西洋一直連到太平洋。
+*   **各顯神通**：中東不再是唯一的霸主。希臘、印度、中國開始各顯神通，拿出了影響至今的「文明大禮包」。🎁
 
-（培文·歷史．斯塔夫裡阿諾斯全球史系列）
+### 🧠 古典時代的「三大黑科技」
+為什麼這個時代這麼猛？因為人類掌握了這三樣東西：
+1.  **獨特的社會系統**：不再是靠血緣，而是靠法律和官僚。
+2.  **宗教與哲學**：人類開始思考「我是誰？我從哪裡來？」。儒家、佛教、希臘哲學都在這時誕生。
+3.  **大陸級的互動**：絲綢之路、海上貿易，讓歐亞大陸變成了一個巨型的互聯網。🔗
 
-ISBN 978-7-301-26938-1
+---
 
-Ⅰ．①全… Ⅱ．①斯… ②吳… ③梁… ④全… Ⅲ．①世界史 Ⅳ．①K10
+### 💡 歷史對今天的啟示：
+如果一個文明只顧著自己玩，它很快就會死掉。
+**古典時代告訴我們：只有不斷跟鄰居交換（不管是物資還是思想），文明才能活得久。**
 
-中國版本圖書館CIP資料核字（2016）第032552號
+> [!TIP]
+> **今日醒思**：看看你周圍的東西，有多少是源自這幾千年前的古典智慧？（法律、字母、甚至是你的思考方式）。
 
-Authorized Translation from the English language edition, entitled GLOBAL HISTORY, A: FROM PREHISTORY TO THE 21ST CENTURY, 7th Edition by LEFTEN STAVRIANOS, published by Pearson Education, Inc., publishing as Pearson, Copyright © 1999 Pearson Education, Inc.
+---
 
-All rights reserved. No part of this book may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, recording or by any information storage retrieval system, without permission from Pearson Education, Inc.
+[下一章：🏗️ 絕美奇蹟：最初的歐亞文明]({{ site.baseurl }}{% post_url 2026-05-04-global-history-chapter-006 %})
 
-Electronic CHINESE SIMPLIFIED language edition published by PEKING UNIVERSITY PRESS, Copyright © 2020.
-
-本書中文簡體翻譯版由Pearson Education授權給北京大學出版社在中國境內（不包括中國香港、澳門特別行政區和中國臺灣地區）出版發行。
-
-本書所插地圖由中國地圖出版社授權使用，審圖號：國審字（2018）第0821號
-
-書 名 全球通史：從史前到21世紀（第7版新校本）上冊
-
-QUANQIU TONGSHI: CONG SHIQIAN DAO ERSHIYI SHIJI
-
-（DI-QI BAN XIN-JIAO BEN）SHANG CE
-
-著作責任者 〔美〕斯塔夫裡阿諾斯（L. S. Stavrianos）著 吳象嬰 梁赤民 譯
-
-《全球通史》編輯小組 校譯
-
-責任編輯 徐文寧 周彬 於鐵紅
-
-標準書號 ISBN 978-7-301-26938-1
-
-出版發行 北京大學出版社
-
-地 址 北京市海淀區成府路205號 100871
-
-網 址 http://www.pup.cn 新浪官方微博：@北京大學出版社 @培文圖書
-
-電子信箱 pkupw@qq.com
-
-電 話 郵購部010-62752015 發行部010-62750672 編輯部010-62750883
-
-印 刷 者 三河市騰飛印務有限公司
-
-經 銷 者 新華書店
-
-787毫米×1092毫米 16開本 29印張 605千字
-
-2020年1月第1版 2020年1月第1次印刷
-
-未經許可，不得以任何方式複製或抄襲本書之部分或全部內容。
-
-版權所有，侵權必究
-
-舉報電話：010-62752024 電子信箱：fd@pup.pku.edu.cn
-
-圖書如有印裝質量問題，請與出版部聯絡，電話：010-62756370
+[返回目錄]({{ site.baseurl }}{% post_url 2026-05-04-global-history-chapter-001 %})
