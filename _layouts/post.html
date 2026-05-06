@@ -96,9 +96,9 @@
                                         <div style="position: relative; margin-right: 10px;">
                                             <img src="{{ p.image | relative_url }}" style="width: 45px; height: 45px; object-fit: cover; border-radius: 3px;">
                                             {% if p.is_special %}
-                                                <span style="position: absolute; bottom: 0; right: 0; background: #e50914; font-size: 0.5em; padding: 1px 3px; border-radius: 2px; color: white;">PROMO</span>
+                                                <span style="position: absolute; bottom: 0; right: 0; background: #e50914; font-size: 0.5em; padding: 1px 3px; border-radius: 2px; color: white;">書籍</span>
                                             {% elsif p.is_pure_comic %}
-                                                <span style="position: absolute; bottom: 0; right: 0; background: #e50914; font-size: 0.5em; padding: 1px 3px; border-radius: 2px; color: white;">PURE</span>
+                                                <span style="position: absolute; bottom: 0; right: 0; background: #e50914; font-size: 0.5em; padding: 1px 3px; border-radius: 2px; color: white;">精華</span>
                                             {% else %}
                                                 <span style="position: absolute; bottom: 0; right: 0; background: rgba(0,0,0,0.7); font-size: 0.6em; padding: 1px 3px; border-radius: 2px;">{{ epi_counter }}</span>
                                             {% endif %}
@@ -106,11 +106,11 @@
                                         <div style="flex: 1; min-width: 0;">
                                             <div style="font-weight: bold; font-size: 0.8em; color: #e50914;">
                                                 {% if p.is_special %}
-                                                    {{ trans.text.special_promo | default: "特別版：宣傳片" }}
+                                                    {{ trans.text.special_promo | default: "導讀主頁" }}
                                                 {% elsif p.is_pure_comic %}
-                                                    {{ trans.text.pure_comic_version | default: "純漫畫版" }}
+                                                    {{ trans.text.pure_comic_version | default: "精華版" }}
                                                 {% else %}
-                                                    Episode {{ epi_counter }}
+                                                    {{ trans.text.chapter_prefix | default: "第" }} {{ epi_counter }} {{ trans.text.chapter_suffix | default: "章" }}
                                                     {% assign epi_counter = epi_counter | plus: 1 %}
                                                 {% endif %}
                                             </div>
