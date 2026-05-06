@@ -53,6 +53,7 @@ sent_message_url: "/contact/message-sent/"
 
 
 # Build settings
+future: true
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
