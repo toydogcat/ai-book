@@ -29,14 +29,14 @@ permalink: /mimic/
 
 ## 📖 圖書目錄
 
-*   [📖 序章：企劃總大綱與設定]({{ site.baseurl }}{% post_url mimic/2026-01-03-all.md %})
-*   [📖 第一章：鏡子背後的倒影呼吸]({{ site.baseurl }}{% post_url mimic/2026-05-01-mimic-chapter-001 %}) *(即將上線)*
-*   [📖 第二章：1/100秒的聲音延遲]({{ site.baseurl }}{% post_url mimic/2026-05-02-mimic-chapter-002 %}) *(即將上線)*
-*   [📖 第三章：走廊盡頭的逆向陰影]({{ site.baseurl }}{% post_url mimic/2026-05-03-mimic-chapter-003 %}) *(即將上線)*
-*   [📖 第四章：封鎖大樓的無聲圍剿]({{ site.baseurl }}{% post_url mimic/2026-05-04-mimic-chapter-004 %}) *(即將上線)*
-*   [📖 第五章：假面閨蜜與雙向誘騙]({{ site.baseurl }}{% post_url mimic/2026-05-05-mimic-chapter-005 %}) *(即將上線)*
-*   [📖 第六章：鏡像對決與最後的防線]({{ site.baseurl }}{% post_url mimic/2026-05-06-mimic-chapter-006 %}) *(即將上線)*
-*   [📖 第七章：破曉時分的真實之聲]({{ site.baseurl }}{% post_url mimic/2026-05-07-mimic-chapter-007 %}) *(即將上線)*
+*   [📖 序章：企劃總大綱與設定]({{ site.baseurl }}{% post_url mimic/2026-01-03-all %})
+*   [📖 第一章：鏡子背後的倒影呼吸]({{ site.baseurl }}{% post_url mimic/2026-05-01-mimic-chapter-001 %})
+*   [📖 第二章：1/100秒的聲音延遲]({{ site.baseurl }}{% post_url mimic/2026-05-02-mimic-chapter-002 %})
+*   [📖 第三章：走廊盡頭的逆向陰影]({{ site.baseurl }}{% post_url mimic/2026-05-03-mimic-chapter-003 %})
+*   [📖 第四章：封鎖大樓的無聲圍剿]({{ site.baseurl }}{% post_url mimic/2026-05-04-mimic-chapter-004 %})
+*   [📖 第五章：假面閨蜜與雙向誘騙]({{ site.baseurl }}{% post_url mimic/2026-05-05-mimic-chapter-005 %})
+*   [📖 第六章：鏡像對決與最後的防線]({{ site.baseurl }}{% post_url mimic/2026-05-06-mimic-chapter-006 %})
+*   [📖 第七章：破曉時分的真實之聲]({{ site.baseurl }}{% post_url mimic/2026-05-07-mimic-chapter-007 %})
 
 ---
 
