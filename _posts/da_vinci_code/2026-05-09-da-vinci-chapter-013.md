@@ -195,4 +195,4 @@ Yo soy un espectro...palido coma una fantasma...caminando este mundo a solas。
 
 ---
 
-[返回目錄主頁]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-index %})
+[👈 上一章]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-chapter-012 %}) | [返回目錄主頁]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-index %}) | [下一章 👉]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-chapter-014 %})

@@ -112,4 +112,4 @@ CD（大部分是布拉姆斯唱片）顯然是他在極其高端的立體聲系
 
 ---
 
-[返回目錄主頁]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-index %})
+[👈 上一章]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-chapter-089 %}) | [返回目錄主頁]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-index %}) | [下一章 👉]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-chapter-091 %})

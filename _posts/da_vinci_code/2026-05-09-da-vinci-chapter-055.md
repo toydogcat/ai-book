@@ -92,4 +92,4 @@ The gate clicked open. “你的心是真诚的，我的朋友。你可以过去
 
 ---
 
-[返回目錄主頁]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-index %})
+[👈 上一章]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-chapter-054 %}) | [返回目錄主頁]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-index %}) | [下一章 👉]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-chapter-056 %})

@@ -222,4 +222,4 @@ permalink: /da_vinci/chapter-026/
 
 ---
 
-[返回目錄主頁]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-index %})
+[👈 上一章]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-chapter-025 %}) | [返回目錄主頁]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-index %}) | [下一章 👉]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-chapter-027 %})

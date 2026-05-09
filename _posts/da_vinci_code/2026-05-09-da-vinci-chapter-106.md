@@ -131,4 +131,4 @@ Rémy Legaludec 做了一個不起眼的補充。
 
 ---
 
-[返回目錄主頁]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-index %})
+[👈 上一章]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-chapter-105 %}) | [返回目錄主頁]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-index %}) | [下一章 👉]({{ site.baseurl }}{% post_url da_vinci_code/2026-05-09-da-vinci-chapter-107 %})
