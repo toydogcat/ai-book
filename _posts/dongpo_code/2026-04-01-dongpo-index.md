@@ -29,3 +29,4 @@ permalink: /dongpo/
 *   [📖 第二章：大稻埕老茶行與幾何星圖]({{ site.baseurl }}{% post_url dongpo_code/2026-05-02-dongpo-chapter-002 %})
 *   [📖 第三章：寒山寺鐘聲與梵音密碼]({{ site.baseurl }}{% post_url dongpo_code/2026-05-03-dongpo-chapter-003 %})
 *   [📖 第四章：黃州赤壁與東坡蜜酒]({{ site.baseurl }}{% post_url dongpo_code/2026-05-04-dongpo-chapter-004 %})
+*   [📖 第五章：西湖水底地宮與大宋龍脈]({{ site.baseurl }}{% post_url dongpo_code/2026-05-05-dongpo-chapter-005 %})

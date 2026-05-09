@@ -76,4 +76,4 @@ permalink: /dongpo/chapter-004/
 
 ---
 
-[👈 上一章]({{ site.baseurl }}{% post_url dongpo_code/2026-05-03-dongpo-chapter-003 %}) | [返回目錄主頁]({{ site.baseurl }}{% post_url dongpo_code/2026-04-01-dongpo-index %})
+[👈 上一章]({{ site.baseurl }}{% post_url dongpo_code/2026-05-03-dongpo-chapter-003 %}) | [返回目錄主頁]({{ site.baseurl }}{% post_url dongpo_code/2026-04-01-dongpo-index %}) | [下一章 👉]({{ site.baseurl }}{% post_url dongpo_code/2026-05-05-dongpo-chapter-005 %})
