@@ -21,7 +21,7 @@ permalink: /observer/
 
 法醫發現，所有死者的視網膜底層，都殘留著一抹淡淡的、物理上不可能存在的折射人影——**「第十三個觀察者」**。
 
-頂級腦神經犯罪側寫師**林野**（Lin Ye）患有高度共情障礙，在接受調查時陷入了致命的時間循環。他與深腦科技的叛逃首席數據分析師**沈瀾**（Shen Lan）聯手，利用 AI 神經元繪圖，一步步潛入自己的多重大腦意識深淵。他們要在記憶的碎片與量子意識疊加態中，抓出那個潛伏在人類大腦最底層的終極觀察者……
+頂級腦神經犯罪側寫師**林野**（Lin Ye）患有高度共情障礙，在接受調查時陷入了致命的時間循環。他與深腦科技的叛逃首席數據分析師**沈瀾**（Shen Lan）聯手，利用 AI 神經元繪圖，一步步潛入自己的多重大腦意識深淵。他們要在七天七夜、一整週的記憶碎片與量子意識疊加態中，抓出那個潛伏在人類大腦最底層的終極觀察者……
 
 ---
 
@@ -30,3 +30,7 @@ permalink: /observer/
 *   [📖 第一章：鏡子裡的微笑自殺者]({{ site.baseurl }}{% post_url observer/2026-05-01-observer-chapter-001 %})
 *   [📖 第二章：重設的清晨六點鐘]({{ site.baseurl }}{% post_url observer/2026-05-02-observer-chapter-002 %})
 *   [📖 第三章：第十三個觀察者的凝視]({{ site.baseurl }}{% post_url observer/2026-05-03-observer-chapter-003 %})
+*   [📖 第四章：崩塌的十歲大火與記憶卡榫]({{ site.baseurl }}{% post_url observer/2026-05-04-observer-chapter-004 %})
+*   [📖 第五章：雙重意識疊加與薛丁格的貓]({{ site.baseurl }}{% post_url observer/2026-05-05-observer-chapter-005 %})
+*   [📖 第六章：第十三個觀察者的真身]({{ site.baseurl }}{% post_url observer/2026-05-06-observer-chapter-006 %})
+*   [📖 第七章：量子意識的終極重組與覺醒]({{ site.baseurl }}{% post_url observer/2026-05-07-observer-chapter-007 %})
