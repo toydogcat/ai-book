@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "📖 第一章：台北故宮的宋代盤膝古屍"
-date: 2026-01-01 10:00:00 +0800
+date: 2026-05-09 11:30:00 +0800
 tags:
   - 東坡密碼
   - 蘇東坡
@@ -94,4 +94,4 @@ permalink: /dongpo/chapter-001/
 
 ---
 
-[返回目錄主頁]({{ site.baseurl }}{% post_url dongpo_code/2026-01-01-dongpo-index %})
+[返回目錄主頁]({{ site.baseurl }}{% post_url dongpo_code/2026-05-09-dongpo-index %})
