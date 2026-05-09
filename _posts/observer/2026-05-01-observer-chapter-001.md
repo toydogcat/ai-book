@@ -122,4 +122,4 @@ permalink: /observer/chapter-001/
 
 ---
 
-[返回目錄主頁]({{ site.baseurl }}{% post_url observer/2026-04-01-observer-index %})
+[返回目錄主頁]({{ site.baseurl }}{% post_url observer/2026-04-01-observer-index %}) | [下一章 👉]({{ site.baseurl }}{% post_url observer/2026-05-02-observer-chapter-002 %})

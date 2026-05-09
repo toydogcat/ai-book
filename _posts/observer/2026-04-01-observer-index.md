@@ -28,3 +28,5 @@ permalink: /observer/
 ## 📖 圖書目錄
 
 *   [📖 第一章：鏡子裡的微笑自殺者]({{ site.baseurl }}{% post_url observer/2026-05-01-observer-chapter-001 %})
+*   [📖 第二章：重設的清晨六點鐘]({{ site.baseurl }}{% post_url observer/2026-05-02-observer-chapter-002 %})
+*   [📖 第三章：第十三個觀察者的凝視]({{ site.baseurl }}{% post_url observer/2026-05-03-observer-chapter-003 %})
