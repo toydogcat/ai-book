@@ -12,28 +12,7 @@ is_generated: true
 permalink: /da_vinci/chapter-004/
 ---
 
-# 🧠 第一章：深夜驚魂！哈佛符號大師的「巧克力之耳」與致命快照！
-
-凌晨 12:32，巴黎麗茲酒店。
-哈佛大學宗教符號學教授羅伯特·蘭登在奢華的文藝復興式臥室中被清脆的電話鈴聲驚醒。
-他原本以為只是講座後的頑固保守派前來理論，沒想到，門口等待他的卻是法國司法警察（DCPJ）的熱羅姆·科萊副官。
-一張慘不忍睹、怪異萬分的寶麗來屍體快照被塞入房門——死者正是與蘭登約定今晚會面的羅浮宮館長索尼耶！
-而更詭異的是，警察說：這慘絕人寰的怪異姿勢，竟然是館長自己擺出來的？！
-
----
-
-### 💡 本章解密關鍵點
-* **哈佛符號大師登場**：羅伯特·蘭登，一位具有獨特「學術魅力」與低沉「男中音巧克力嗓音」的教授，再次無奈地被捲入神秘命案。
-* **致命的寶麗來照片**：羅浮宮深夜現場的快照，上面奇特無比的屍體擺放姿勢，正是這場驚天解密冒險的「起點」。
-* **密閉空間恐懼症**：蘭登童年曾掉入深井，因此對電梯、地鐵等密閉空間有著極深恐懼，這將成為他冒險路上的心理陰影。
-
----
-
-<details>
-  <summary>📖 點擊展開閱讀本章《達文西密碼》原著完整原文</summary>
-  <div markdown="1">
-
-# 第一章
+# 第一章：哈佛大師登場
 
 羅伯特·蘭登緩慢地醒來。
 
@@ -90,7 +69,7 @@ permalink: /da_vinci/chapter-004/
 
 蘭登感到一陣退縮。她到底從哪裡拿到那張紙的？
 
-主持人開始大聲朗讀那篇荒謬文章的精選片段，蘭登覺得自己深深縮進椅子裡。三十秒後，人群都在微笑，而那女人完全沒有停下來的跡象。「蘭登先生拒絕公開談論他在去年梵蹟岡秘密會議中所扮演的非同尋常的角色，這無疑在我們的『趣味指數』上為他贏得了分數。」主持人鼓動著人群。「你們想聽更多嗎？」
+主持人開始大聲朗讀那篇荒謬文章的精選片段，蘭登覺得自己深深縮進椅子裡。三十秒後，人群都在微笑，而那女人完全沒有停下來的跡象。「蘭登先生拒絕公開談論他在去年梵蒂岡秘密會議中所扮演的非同尋常的角色，這無疑在我們的『趣味指數』上為他贏得了分數。」主持人鼓動著人群。「你們想聽更多嗎？」
 
 人群鼓掌。
 
@@ -100,13 +79,13 @@ permalink: /da_vinci/chapter-004/
 
 大廳裡爆發出笑聲。
 
-蘭登勉強擠出尷尬的微笑。He knew what came next—some ridiculous line about "Harrison Ford in Harris tweed"—and because this evening he had figured it was finally safe again to wear his Harris tweed and Burberry turtleneck, he decided to take action.
+蘭登勉強擠出尷尬的微笑。他知道接下來會發生什麼——一些關於「穿著哈里斯粗花呢的哈里遜·福特」的荒謬台詞。因為今天晚上他覺得穿上他的哈里斯粗花呢和巴寶莉高領毛衣終於安全了，他決定採取行動。
 
-"Thank you, Monique," Langdon said, standing prematurely and edging her away from the podium. "Boston Magazine clearly has a gift for fiction." He turned to the audience with an embarrassed sigh. "And if I find which one of you provided that article, I'll have the consulate deport you."
+「謝謝你，莫妮卡，」蘭登站起身，提前將她推離講台。「《波士頓雜誌》顯然很有虛構天賦。」他帶著尷尬的嘆息轉向觀眾。「如果我發現是你們中的哪一位提供了這篇文章，我會讓領事館將你驅逐出境。」
 
-The crowd laughed.
+人群大笑。
 
-"Well, folks, as you all know, I'm here tonight to talk about the power of symbols..."
+「好吧，朋友們，正如你們所知，我今晚來到這裡是要談論符號的力量……」
 
 蘭登房間的酒店電話再次打破了沉靜。
 
@@ -162,16 +141,13 @@ The crowd laughed.
 
 特工看了一眼手錶。「我們的局長正在等待，先生。」
 
-蘭登幾乎沒有聽到他的話。His eyes were still riveted on the picture. "This symbol here, and the way his body is so oddly..."
+蘭登幾乎沒有聽到他的話。他的目光依然牢牢吸引在照片上。「這裡的這個符號，以及他的身體如此奇異地……」
 
-"Positioned?" the agent offered.
+「擺放？」特工提議。
 
-Langdon nodded, feeling a chill as he looked up. "I can't imagine who would do this to someone."
+蘭登點頭，抬起頭時感到一陣寒意。「我無法想像誰會對別人做這種事。」
 
-The agent looked grim. "You don't understand, Mr. Langdon. What you see in this photograph..." He paused. "Monsieur Saunière did that to himself."
-
-  </div>
-</details>
+特工表情嚴肅。「您不明白，蘭登先生。您在這張照片中看到的……」他停頓了一下。「索尼耶先生是自己對自己做了那些事。」
 
 ---
 
