@@ -29,7 +29,6 @@ permalink: /mimic/
 
 ## 📖 圖書目錄
 
-*   [📖 序章：企劃總大綱與設定]({{ site.baseurl }}{% post_url mimic/2026-01-03-all %})
 *   [📖 第一章：鏡子背後的倒影呼吸]({{ site.baseurl }}{% post_url mimic/2026-05-01-mimic-chapter-001 %})
 *   [📖 第二章：1/100秒的聲音延遲]({{ site.baseurl }}{% post_url mimic/2026-05-02-mimic-chapter-002 %})
 *   [📖 第三章：走廊盡頭的逆向陰影]({{ site.baseurl }}{% post_url mimic/2026-05-03-mimic-chapter-003 %})
