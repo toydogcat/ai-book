@@ -19,7 +19,7 @@ permalink: /dongpo/
 
 傳說隨葬昭陵的王羲之《蘭亭集序》真跡其實未被隨葬，而是藏有大宋神州龍脈與長生丹道的至高祕密。北宋第一文豪蘇東坡深陷「烏台詩案」，九死一生出獄後，將解密密碼巧妙織入他的絕世神作《寒食帖》之中。
 
-深夜，台北故宮博物院內，一具宋代古屍盤坐於展廳中央，雙手緊抱著曜變天目盞，而《寒食帖》被鮮血覆蓋……故宮鑑定大師江楓與 AI 圖像博士蘇清雪，必須在 24 小時之內，解開兩千年來橫跨黃州、蘇州、杭州與西湖的東方終極奧祕。
+深夜，台北故宮博物院內，一具宋代古屍盤坐於展廳中央，雙手緊抱著曜變天目盞，而《寒食帖》被鮮血覆蓋……故宮鑑定大師江楓與 AI 圖像博士蘇清雪，必須在七天七夜之內，解開兩千年來橫跨黃州、蘇州、惠州、儋州與杭州西湖的東方終極奧祕。
 
 ---
 
@@ -29,4 +29,6 @@ permalink: /dongpo/
 *   [📖 第二章：大稻埕老茶行與幾何星圖]({{ site.baseurl }}{% post_url dongpo_code/2026-05-02-dongpo-chapter-002 %})
 *   [📖 第三章：寒山寺鐘聲與梵音密碼]({{ site.baseurl }}{% post_url dongpo_code/2026-05-03-dongpo-chapter-003 %})
 *   [📖 第四章：黃州赤壁與東坡蜜酒]({{ site.baseurl }}{% post_url dongpo_code/2026-05-04-dongpo-chapter-004 %})
-*   [📖 第五章：西湖水底地宮與大宋龍脈]({{ site.baseurl }}{% post_url dongpo_code/2026-05-05-dongpo-chapter-005 %})
+*   [📖 第五章：惠州西湖與朝雲墓碑]({{ site.baseurl }}{% post_url dongpo_code/2026-05-05-dongpo-chapter-005 %})
+*   [📖 第六章：儋州書院與載酒堂樑]({{ site.baseurl }}{% post_url dongpo_code/2026-05-06-dongpo-chapter-006 %})
+*   [📖 第七章：西湖水底地宮與大宋龍脈]({{ site.baseurl }}{% post_url dongpo_code/2026-05-07-dongpo-chapter-007 %})
