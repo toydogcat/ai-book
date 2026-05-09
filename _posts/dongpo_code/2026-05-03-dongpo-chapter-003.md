@@ -88,4 +88,4 @@ permalink: /dongpo/chapter-003/
 
 ---
 
-[👈 上一章]({{ site.baseurl }}{% post_url dongpo_code/2026-05-02-dongpo-chapter-002 %}) | [返回目錄主頁]({{ site.baseurl }}{% post_url dongpo_code/2026-04-01-dongpo-index %})
+[👈 上一章]({{ site.baseurl }}{% post_url dongpo_code/2026-05-02-dongpo-chapter-002 %}) | [返回目錄主頁]({{ site.baseurl }}{% post_url dongpo_code/2026-04-01-dongpo-index %}) | [下一章 👉]({{ site.baseurl }}{% post_url dongpo_code/2026-05-04-dongpo-chapter-004 %})
