@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "📚 《東坡密碼》：大宋神州龍脈與寒食帖謎案"
-date: 2026-05-09 11:00:00 +0800
+date: 2026-05-01 11:00:00 +0800
 tags:
   - 東坡密碼
   - 蘇東坡
@@ -25,4 +25,5 @@ permalink: /dongpo/
 
 ## 📖 圖書目錄
 
-*   [📖 序章：台北故宮的宋代盤膝古屍]({{ site.baseurl }}{% post_url dongpo_code/2026-05-09-dongpo-chapter-001 %})
+*   [📖 序章：台北故宮的宋代盤膝古屍]({{ site.baseurl }}{% post_url dongpo_code/2026-05-01-dongpo-chapter-001 %})
+*   [📖 第二章：大稻埕老茶行與幾何星圖]({{ site.baseurl }}{% post_url dongpo_code/2026-05-02-dongpo-chapter-002 %})
