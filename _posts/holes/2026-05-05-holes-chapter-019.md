@@ -1,0 +1,29 @@
+---
+layout: post
+title: "📖 Chapter 19"
+date: 2026-05-05 06:00:00 +0800
+tags:
+  - holes
+  - 經典
+  - 英文原著
+category: 經典
+chapter: 19
+lang: zh-TW
+image: /assets/img/books/holes/cover.webp
+is_generated: true
+permalink: /holes/chapter-019/
+---
+
+# Chapter 19
+
+He was awakened one night by a strange noise. At first he thought it might have been some kind of animal, and it frightened him. But as the sleep cleared from his head, he realized that the noise was coming from the cot next to him. Squid was crying. "You okay?" Stanley whispered. Squid's head jerked around. He sniffed and caught his breath. "Yeah, I just . . . I'm fine," he whispered, and sniffed again. In the morning Stanley asked Squid if he was feeling better. "What are you, my mother?" asked Squid. Stanley raised and lowered one shoulder. "I got allergies, okay?" Squid said. "Okay," said Stanley. "You open your mouth again, and I'll break your jaw."
+
+Stanley kept his mouth shut most of the time. He didn't talk too much to any of the boys, afraid that he might say the wrong thing. They called him Caveman and all that, but he couldn't forget that they were dangerous, too. They were all here for a reason. As Mr. Sir would say, this wasn't a Girl Scout camp. Stanley was thankful that there were no racial problems. X-Ray, Armpit, and Zero were black. He, Squid, and Zigzag were white. Magnet was Hispanic. On the lake they were all the same reddish brown color— the color of dirt. He looked up from his hole to see the water truck and its trailing dust cloud. His canteen was still almost a quarter full. He quickly drank it down, then took his place in line, behind Magnet and in front of Zero. The air was thick with heat, dust, and exhaust fumes. Mr. Sir filled their canteens. The truck pulled away. Stanley was back in his hole, shovel in hand, when he heard Magnet call out. "Anybody want some sunflower seeds?" Magnet was standing at ground level, holding a sack of seeds. He popped a handful into his mouth, chewed, and swallowed, shells and all. "Over here," called X-Ray. The sack looked to be about half full. Magnet rolled up the top, then tossed it to X-Ray. "How'd you get them without Mr. Sir seeing you?" asked Armpit. "I can't help it," Magnet said. He held both hands up, wiggled his fingers, and laughed. "My fingers are like little magnets."
+
+The sack went from X-Ray to Armpit to Squid. "It's sure good to eat something that doesn't come from a can," said Armpit. Squid tossed the sack to Zigzag. Stanley knew it would come to him next. He didn't even want it. From the moment Magnet shouted, "Anybody want some sunflower seeds," he knew there would be trouble. Mr. Sir was sure to come back. And anyway, the salted shells would only make him thirsty. "Coming your way, Caveman," said Zigzag. "Airmail and special delivery . . ." It's unclear whether the seeds spilled before they got to Stanley or after he dropped the bag. It seemed to him that Zigzag hadn't rolled up the top before throwing it, and that was the reason he didn't catch it. But it all happened very fast. One moment the sack was flying through the air, and the next thing Stanley knew the sack was in his hole and the seeds were spilled across the dirt. "Oh, man!" said Magnet. "Sorry," Stanley said as he tried to sweep the seeds back into the sack. "I don't want to eat dirt," said X-Ray. Stanley didn't know what to do. "The truck's coming!" shouted Zigzag. Stanley looked up at the approaching dust cloud, then back down at the spilled seeds. He was in the wrong place at the wrong time. What else is new? He dug his shovel into his hole, and tried to turn over the dirt and bury the seeds. What he should have done, he realized later, was knock one of his dirt piles back into his hole. But the idea of putting dirt into his hole was unthinkable. "Hello, Mr. Sir," said X-Ray. "Back so soon?" "It seems like you were just here," said Armpit. "Time flies when you're having fun," said Magnet. Stanley continued to turn the dirt over in his hole. "You Girl Scouts having a good time?" asked Mr. Sir. He moved from one hole to another. He kicked a dirt pile by Magnet's hole, then he moved toward Stanley. Stanley could see two seeds at the bottom of his hole. As he tried to cover them up, he unearthed a corner of the sack. "Well, what do you know, Caveman?" said Mr. Sir, standing over him. "It looks like you found something." Stanley didn't know what to do. "Dig it out," Mr. Sir said. "We'll take it to the Warden. Maybe she'll give you the rest of the day off." "It's not anything," Stanley muttered. "Let me be the judge of that," said Mr. Sir. Stanley reached down and pulled up the empty burlap sack. He tried to hand it to Mr. Sir, but he wouldn't take it. "So, tell me, Caveman," said Mr. Sir. "How did my sack of sunflower seeds get in your hole?"
+
+"I stole it from your truck." "You did?" "Yes, Mr. Sir." "What happened to all the sunflower seeds?" "I ate them." "By yourself." "Yes, Mr. Sir." "Hey, Caveman!" shouted Armpit. "How come you didn't share any with us?" "That's cold, man," said X-Ray. "I thought you were our friend," said Magnet. Mr. Sir looked around from one boy to another, then back to Stanley. "We'll see what the Warden has to say about this. Let's go." Stanley climbed up out of his hole and followed Mr. Sir to the truck. He still held the empty sack. It felt good to sit inside the truck, out of the direct rays of the sun. Stanley was surprised he could feel good about anything at the moment, but he did. It felt good to sit down on a comfortable seat for a change. And as the truck bounced along the dirt, he was able to appreciate the air blowing through the open window onto his hot and sweaty face.
+
+---
+
+[返回目錄主頁]({{ site.baseurl }}{% post_url holes/2026-05-05-holes-index %}) | [👈 上一章]({{ site.baseurl }}{% post_url holes/2026-05-05-holes-chapter-018 %}) | [下一章 👉]({{ site.baseurl }}{% post_url holes/2026-05-05-holes-chapter-020 %})
